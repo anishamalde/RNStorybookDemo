@@ -25,16 +25,6 @@ It was roughtly done like this:
 - Inside of `./.storybook/main.js` configure custom webpack for Storybook, see docs here: [Storybook custom webpack docs](https://storybook.js.org/docs/configurations/custom-webpack-config/), from my `webpack.config.js` I grab the alias configuration and plug it into Storybook.
 - Since Storybook does not support the new syntax of writing stories for React Native I needed to add one more alias where `@storybook/react-native` resolves to `@storybook/react`
 
-Goals of this repo:
-
-| ToDo| Status |
-| --- | ----- |
-| setup react native | ✅ |
-| setup @storybook/react-native-server for react native UI development | ✅ |
-| setup react from scratch | ✅ |
-| setup @storybook/react to run as a seperate storybook | ✅ |
-| Build serveable storybook site with react-native-web display of the react-native components. | ✅ |
-
 ## Clone Command
 ```
 git clone git@github.com:ugglr/react-native-storybook-boilerplate.git
